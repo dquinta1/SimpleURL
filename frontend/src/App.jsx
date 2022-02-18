@@ -1,8 +1,8 @@
 import './App.css';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HomePage } from './Routes';
 import { LoginPage, SignUpPage } from './Auth';
+import { HomePage } from './Routes';
 
 const queryClient = new QueryClient();
 
