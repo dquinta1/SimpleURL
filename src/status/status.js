@@ -1,5 +1,7 @@
 import React, { Component }from 'react';
-
+import './status.css'
+import {displayTwoItemsInOneRow, divider, shortURLText, statusNavBarWidget} from "./statusPageWidgets";
+import {generateClickBarView, generatePieView} from "./graphUtils";
 export default class Status extends Component{
     constructor(props){
         super(props);
@@ -11,7 +13,12 @@ export default class Status extends Component{
     render(){
         return(
             <div>
-                SIMPLE URL
+                {statusNavBarWidget()}
+                {divider()}
+                {shortURLText()}
+                {divider()}
+                {displayTwoItemsInOneRow(generateClickBarView(), generatePieView())}
+                {divider()}
             </div>
         )
     }

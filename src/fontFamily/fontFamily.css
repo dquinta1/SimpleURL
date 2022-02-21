@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Prompt:wght@300;600;700&family=Vast+Shadow&display=swap');
+
+.logo{
+    font-family: 'Vast Shadow', cursive;
+
+    font-size:xx-large;
+    top: 25px;
+    cursor: pointer;
+}
+
+
+
+.logo:hover{
+    text-decoration:underline;
+}
+
+.regularNoBoldCenterClickP{
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: blue;
+    cursor: pointer;
+}
+
+.regularNoBoldCenterClickP:hover{
+    text-decoration:underline;
+}
+
+.LargeBoldCenterP{
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
