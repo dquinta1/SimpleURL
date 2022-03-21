@@ -22,9 +22,7 @@
     cursor: pointer;
 }
 
-.regularNoBoldCenterClickP:hover{
-    text-decoration:underline;
-}
+
 
 .LargeBoldCenterP{
     font-weight: 700;

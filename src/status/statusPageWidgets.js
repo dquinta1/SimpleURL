@@ -4,8 +4,9 @@ import DialogContentText from "@mui/material/DialogContentText";
 import Button from "@mui/material/Button";
 import {Grid} from "@mui/material";
 import Box from "@mui/material/Box";
+import {loginPath, pricePath} from "../path/path";
 
-function backToMainPage(){
+export function backToMainPage(){
     let url = window.location.href;
     let mainURL = url;
     for(let i = url.length - 1; i >= 0; i--){
@@ -19,6 +20,11 @@ function backToMainPage(){
 
     return mainURL;
 }
+
+export function redirectTo(str){
+    window.location.href = backToMainPage() + str;
+}
+
 
 export function statusNavBarWidget(){
     return (
@@ -34,10 +40,13 @@ export function statusNavBarWidget(){
                 <div className={"displayInlineMargin25px"} id = {"navFont"}>
                     RESOURCES
                 </div>
+                <div className={"displayInlineMargin25px"} id = {"navFont"} onClick={()=>{redirectTo(pricePath)}}>
+                    PRICE
+                </div>
                 <div className={"displayInlineMargin25px"} id = {"navFont"}>
                     ABOUT
                 </div>
-                <div className={"displayInlineRightButton"} id = {"navFont"}>
+                <div className={"displayInlineRightButton"} id = {"navFont"} onClick={()=>{redirectTo(loginPath)}}>
                     My Account
                 </div>
             </div>
@@ -47,7 +56,6 @@ export function statusNavBarWidget(){
 export function divider(){
     return (
         <div>
-
             <hr className="solid"></hr>
         </div>
 

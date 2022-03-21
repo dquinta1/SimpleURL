@@ -15,6 +15,7 @@ import Slide from '@mui/material/Slide';
 import LinearWithValueLabel from './loadingProgress/line.js'
 import {useState} from "react";
 import {Alert, AlertTitle, Collapse, IconButton} from "@mui/material";
+import {footer} from "./navBar/price/priceTemplate";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
@@ -164,6 +165,7 @@ function App() {
                  </div>
               </div>
               {customizeDialog(inputURL)}
+
 
       </div>
     );

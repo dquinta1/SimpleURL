@@ -42,11 +42,14 @@
 }
 .displayInlineRightButton:hover{
     text-decoration:underline;
+    margin-left: 25px;
+    cursor: pointer;
 }
 
 
 .displayInlineMargin25px:hover{
     text-decoration:underline;
+    cursor: pointer;
 }
 #navFont{
     font-family: 'Vast Shadow', cursive;
