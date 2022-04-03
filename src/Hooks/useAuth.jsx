@@ -96,12 +96,12 @@ export const useAuth = () => {
  *
  * import { useAuth } from '<sourcePath>/Hooks';
  *
- * const [
+ * const {
  *      user,
  *      register,
  *      login,
  *      logout,
- * ] = useAuth();
+ * } = useAuth();
  *
  * const onClickLogin = () => {
  *      login(email, password);
