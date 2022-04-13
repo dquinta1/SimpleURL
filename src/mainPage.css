@@ -1,0 +1,36 @@
+/*source from https://www.w3schools.com/css/css3_borders.asp*/
+#urlConvertBox{
+    border-radius: 25px;
+    background-color: white;
+    padding: 15px;
+    top:25px;
+    width: 900px;
+    height: 400px;
+}
+
+/*source from https://www.w3schools.com/css/css_align.asp*/
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CenterDivMessage{
+    display: inline;
+}
+
+.centerDivLoad{
+    padding-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*source from https://stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html*/
+.displayInRowCenter{
+    display: flex;
+    justify-content: center;
+}
+.App{
+    background-color: rgb(249,249,249);
+}

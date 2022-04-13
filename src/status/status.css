@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Gideon+Roman&family=Prompt:wght@300;600;700&family=Vast+Shadow&display=swap');
+
+.logoDirect{
+    font-family: 'Vast Shadow', cursive;
+
+    margin-top: 20px;
+    margin-bottom: 31px;
+    font-size:x-large;
+    cursor: pointer;
+
+}
+
+.logoDirect:hover{
+    text-decoration:underline;
+}
+/*source from https://stackoverflow.com/questions/9067892/how-to-align-two-elements-on-the-same-line-without-changing-html*/
+.displayInRow{
+    display: inline-block;
+}
+
+.marginLeft25px{
+    margin-left: 25px;
+}
+
+.displayInline{
+    display: inline-block;
+}
+
+.displayInline:hover{
+    text-decoration:underline;
+}
+
+.displayInlineMargin25px{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.displayInlineRightButton{
+    display: inline-block;
+    float: right;
+
+}
+.displayInlineRightButton:hover{
+    text-decoration:underline;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+.displayInlineMargin25px:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+#navFont{
+    font-family: 'Vast Shadow', cursive;
+    font-size:large;
+}
+
+.statusTextFont{
+    font-family: 'Gideon Roman', cursive;
+    margin-left: 25px;
+}
+
+.statusClickTextFont{
+    font-family: 'Gideon Roman', cursive;
+    margin-left: 40px;
+}
+
+#textBoldLarger{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+.shortURLCSS{
+    color: blue;
+}
+
+.shortURLCSS:hover{
+    text-decoration:underline;
+}
+
+.displayNewLine{
+    white-space: pre-line;
+}
+
+#graphClickView{
+
+}
+
+#graphPieView{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
